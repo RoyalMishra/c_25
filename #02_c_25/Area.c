@@ -3,22 +3,30 @@
 
 int main()
 {
-    int s1,r1,r2;
+    int side,length,breath;
+    float radius;
         // Area of a Square 
 
          printf("Enter the Length of Side of Square : \t");
-         scanf("%d",&s1);
+         scanf("%d",&side);
 
-         printf("The Area of the Square is : %d",s1*s1);
+         printf("The Area of the Square is : \t %d",side*side);
 
         // Area of Rectangle
 
-         printf("Enter the Length of Rectangle : \t");
-         scanf("%d",&r1);
+         printf("\nEnter the Length of Rectangle : \t");
+         scanf("%d",&length);
 
          printf("Enter the breadth of Rectangle : \t");
-         scanf("%d",&r2);
+         scanf("%d",&breath);
+
+         printf("The Area of the Rectangle is :\t %d ",length*breath);
+
+         // Area of circle
+         printf("\nEnter the radius of the circle : \t");
+         scanf("%f",&radius);
+         printf("The Area of Circle is : \t %f",3.14*(radius*radius));
+
          
-         printf("The Area of the Rectangle is : %d",r1*r2);
          return 0;
 }
