@@ -1,0 +1,16 @@
+{
+	"c Boilerplate": {
+		"prefix": "c royal",
+	 	"body": [
+		"#include<stdio.h>",
+		"\n",
+		"int main()",
+		"{",
+		"\t$1",	
+		"\t \t printf(\"Hello Royal\");",
+		"\t \t return 0;",
+		"}"
+	],
+		"description": "The C language Boiler Plate Made By Royal Mishra"
+ }
+}

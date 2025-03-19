@@ -11,8 +11,9 @@ int main()
 
     /*  /n --> To Print output to a new line 
         /t --> To Print output to a Tab
-        /' --> To print the ' single inverted comman in code output
-        /" --> To print the " double inverted comman in code output
+        /' --> To print the ' single inverted comma in code output
+        /" --> To print the " double inverted comma in code output
+        // --> To print the Single Back/Forward Slash in code output
 
     */
 }
